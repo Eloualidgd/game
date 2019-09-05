@@ -4,3 +4,13 @@ img {
 #Result {
     margin-left: 70%;
 }
+#Enemy{
+    margin-left: 5%;
+
+}
+#Player{
+    margin-left: 5%;
+}
+body {
+    background-color: brown;
+}
