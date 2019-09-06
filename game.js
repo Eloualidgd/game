@@ -11,19 +11,6 @@ function play(obj) {
         ["You've won !!", "Ace Tied !!" , "You have lost !!" ],
         ["You have lost !!" ,"You've won !!" , "Ace Tied !!"]
             ];
-   /* var userscore = 0 ;
-    var compscore = 0;
-    const userscore_span= document.getElementById("user-score");
-    const compscore_span= document.getElementById("comp-score");
-    const scoreboard_div= document.querySelector("marker");*/
-
-
-    /*var play = [
-        ["Ace tied: 0,0", "You have lost: 0,1", "You've won: 1,0"],
-        ["You've won: 1,0", "Ace tied: 0,0", "You have lost: 0,1"],
-        ["You have lost: 0,1", "You've won: 1,0", "Ace tied: 0,0"]
-    ];*/
-
 
 
 
@@ -52,8 +39,9 @@ function play(obj) {
         userscore++;
     }
 
-    console.log(compscore);
+
     console.log(userscore);
+    console.log(compscore);
 
 
 }
