@@ -1,5 +1,8 @@
 img {
-    width: 170px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 115px;
 }
 #Result {
     margin-left: 70%;
@@ -15,13 +18,15 @@ img {
 
 header {
     background-color: burlywood;
-    padding: 17px;
+    padding: 13px;
     text-align: center;
 }
 body {
     background-color: brown;
 }
+
 .marker {
+
     border: 3px solid burlywood;
     margin: 20px auto;
     width: 200px;

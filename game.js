@@ -1,11 +1,11 @@
 function play(obj) {
-    var object = ["Scissors", "Rock", "Paper"];
+    var object = ["User : Scissors", "Rock", "Paper"];
 
     //console.log(object[obj]);
 
     var play = [
-        ["Ace tied" , "You have lost" , "You've won"],
-        ["You've won", "Ace tied" , "You have lost" ],
+        ["Ace Tied" , "You have lost" , "You've won"],
+        ["You've won", "Ace Tied" , "You have lost" ],
         ["You have lost" ,"You've won" , "Ace Tied"]
             ];
     var userscore = 0 ;
@@ -34,9 +34,8 @@ function play(obj) {
 
 
 
-    function play2 (pl){
-        if (play[0]){
-            document.getElementById("user-score").innerHTML= +1 ;
-        }
+    function win (opcionuser , opcionpc){
+        userscore++;
+        userscore_span.innerHTML= userscore;
     }
 }
