@@ -11,6 +11,18 @@ img {
 #Player{
     margin-left: 5%;
 }
+
+header {
+    background-color: burlywood;
+    padding: 25px;
+    text-align: center;
+}
 body {
     background-color: brown;
+}
+marker {
+    border: 3px solid #fff;
+    margin: 20px auto;
+    width: 200px;
+    position: relative;
 }
