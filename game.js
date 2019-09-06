@@ -8,8 +8,12 @@ function play(obj) {
         ["You've won", "Ace tied" , "You have lost" ],
         ["You have lost" ,"You've won" , "Ace Tied"]
             ];
-    var counter_pc = 0 ;
-    var counter_player = 0;
+    var userscore = 0 ;
+    var compscore = 0;
+    const userscore_span= document.getElementById("user-score");
+    const compscore_span= document.getElementById("comp-score");
+    const scoreboard_div= document.querySelector("marker");
+
 
     /*var play = [
         ["Ace tied: 0,0", "You have lost: 0,1", "You've won: 1,0"],
@@ -30,9 +34,9 @@ function play(obj) {
 
 
 
-    if (document.getElementById("Human").innerHTML == "You've won") {
-        counter_player= +1;
-    }else {
-
+    function play2 (pl){
+        if (play[0]){
+            document.getElementById("user-score").innerHTML= +1 ;
+        }
     }
 }
