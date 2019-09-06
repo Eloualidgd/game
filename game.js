@@ -1,18 +1,18 @@
 function play(obj) {
-    var object = ["User : Scissors", "Rock", "Paper"];
+    var object = ["Scissors", "Rock", "Paper"];
 
     //console.log(object[obj]);
 
     var play = [
-        ["Ace Tied" , "You have lost" , "You've won"],
-        ["You've won", "Ace Tied" , "You have lost" ],
-        ["You have lost" ,"You've won" , "Ace Tied"]
+        ["Ace Tied !!" , "You have lost !!" , "You've won !!"],
+        ["You've won !!", "Ace Tied !!" , "You have lost !!" ],
+        ["You have lost !!" ,"You've won !!" , "Ace Tied !!"]
             ];
-    var userscore = 0 ;
+   /* var userscore = 0 ;
     var compscore = 0;
     const userscore_span= document.getElementById("user-score");
     const compscore_span= document.getElementById("comp-score");
-    const scoreboard_div= document.querySelector("marker");
+    const scoreboard_div= document.querySelector("marker");*/
 
 
     /*var play = [
@@ -20,6 +20,8 @@ function play(obj) {
         ["You've won: 1,0", "Ace tied: 0,0", "You have lost: 0,1"],
         ["You have lost: 0,1", "You've won: 1,0", "Ace tied: 0,0"]
     ];*/
+
+
 
 
     var enemy = Math.floor(Math.random() * 3);
@@ -34,8 +36,9 @@ function play(obj) {
 
 
 
-    function win (opcionuser , opcionpc){
-        userscore++;
-        userscore_span.innerHTML= userscore;
+    var res = document.getElementById("Result");
+    if (.res){
+        res =
+
     }
 }

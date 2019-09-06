@@ -7,6 +7,8 @@ img {
 #Result {
     margin-left: 70%;
     margin-top: 0.5%;
+    font-size: 30px;
+
 }
 #Enemy{
     margin-left: 5%;
@@ -35,4 +37,30 @@ body {
     text-align: center;
     border-radius: 5px;
     font-weight: 700;
+}
+
+.user {
+    padding-left: 40px;
+    color: burlywood;
+}
+
+.computer{
+    padding-left: 40px;
+    color: burlywood;
+}
+
+h2 {
+    padding-left: 40px;
+    color: black;
+}
+
+#Player {
+    padding-left: 40px;
+    color: black;
+}
+
+
+#Enemy {
+    padding-left: 40px;
+    color: black;
 }
